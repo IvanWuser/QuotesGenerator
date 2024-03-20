@@ -1,0 +1,91 @@
+body {
+    background-image: url('./pics/CloudsBgWebsite.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Kanit', sans-serif;
+}
+
+.Heading{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    transition: background-color 0.5s ease;
+    background-color: rgba(89, 89, 89, 0.347);
+    border-radius: 20px;
+    padding: 10px 10px 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.quote{
+    height: 200px;
+    font-size: 30px;
+    font-weight: 800;
+    animation: gradientAnimation 6s infinite;
+}
+
+
+@keyframes gradientAnimation {
+    0% {
+        color: #ffccfb;
+    }
+    25% {
+        color: #ffbcd7;
+    }
+    50% {
+        color: #fda1ff;
+    }
+    75% {
+        color: #ffbcd7;
+    }
+    100% {
+        color: #ffccfb;
+    }
+}
+
+.Quote-div{
+    max-width: 500px;
+}
+
+
+.Generate-btn{
+    background-color: #fda1ff47;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 4px solid #ca677e; 
+    color: #623540; 
+    border-radius: 15px;
+}
+
+.counter{
+    transition: background-color 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.175);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+.secret-counter{
+    margin-top: 1px;
+    transition: background-color 0.5s ease;
+    background-color: rgba(71, 0, 64, 0.429);
+    border-radius: 10px;
+    padding: 5px;
+}
